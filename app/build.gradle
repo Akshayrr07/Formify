@@ -1,16 +1,17 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
 
 android {
     namespace 'com.example.surveyapplication'
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.example.surveyapplication"
-        minSdk 21
-        targetSdk 33
+        minSdk 23
+        targetSdk 35
         versionCode 1
         versionName "1.0"
 
@@ -56,12 +57,11 @@ dependencies {
     implementation 'androidx.compose.material:material:1.7.5'
     implementation 'androidx.room:room-common:2.6.1'
     implementation 'androidx.room:room-ktx:2.6.1'
+    implementation 'com.google.firebase:firebase-auth:23.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
-    //noinspection GradleDependency
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
-    //noinspection GradleDependency
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
 }
