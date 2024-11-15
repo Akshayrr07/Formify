@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.surveyapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.15.0] C:\Users\aksha\.gradle\caches\transforms-3\c098a9d67d47bc337877387835386d09\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.surveyapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.15.0] C:\Users\aksha\.gradle\caches\transforms-3\c098a9d67d47bc337877387835386d09\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.15.0] C:\Users\aksha\.gradle\caches\transforms-3\c098a9d67d47bc337877387835386d09\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.surveyapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.15.0] C:\Users\aksha\.gradle\caches\transforms-3\c098a9d67d47bc337877387835386d09\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.15.0] C:\Users\aksha\.gradle\caches\transforms-3\c098a9d67d47bc337877387835386d09\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:5:5-40:19
+18        android:allowBackup="true"
+18-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.15.0] C:\Users\aksha\.gradle\caches\transforms-3\c098a9d67d47bc337877387835386d09\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:10:9-41
+25        android:supportsRtl="true"
+25-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.SurveyApplication" >
+27-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:12:9-55
+28        <activity
+28-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:14:9-18:62
+29            android:name="com.example.surveyapplication.RegisterActivity"
+29-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:15:13-45
+30            android:exported="false"
+30-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:16:13-37
+31            android:label="@string/title_activity_register"
+31-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:17:13-60
+32            android:theme="@style/Theme.SurveyApplication" />
+32-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:18:13-59
+33        <activity
+33-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:19:9-23:62
+34            android:name="com.example.surveyapplication.MainActivity"
+34-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:20:13-41
+35            android:exported="false"
+35-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:21:13-37
+36            android:label="MainActivity"
+36-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:22:13-41
+37            android:theme="@style/Theme.SurveyApplication" />
+37-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:23:13-59
+38        <activity
+38-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:24:9-28:62
+39            android:name="com.example.surveyapplication.AdminActivity"
+39-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:25:13-42
+40            android:exported="false"
+40-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:26:13-37
+41            android:label="@string/title_activity_admin"
+41-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:27:13-57
+42            android:theme="@style/Theme.SurveyApplication" />
+42-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:28:13-59
+43        <activity
+43-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:29:9-39:20
+44            android:name="com.example.surveyapplication.LoginActivity"
+44-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:30:13-42
+45            android:exported="true"
+45-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:31:13-36
+46            android:label="@string/app_name"
+46-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:32:13-45
+47            android:theme="@style/Theme.SurveyApplication" >
+47-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:33:13-59
+48            <intent-filter>
+48-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:34:13-38:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:35:17-69
+49-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:35:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:37:17-77
+51-->E:\GIT\SurveyApp\app\src\main\AndroidManifest.xml:37:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <service
+55-->[androidx.room:room-runtime:2.6.1] C:\Users\aksha\.gradle\caches\transforms-3\8826f7968b76a9b76961fc617defea94\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+56            android:name="androidx.room.MultiInstanceInvalidationService"
+56-->[androidx.room:room-runtime:2.6.1] C:\Users\aksha\.gradle\caches\transforms-3\8826f7968b76a9b76961fc617defea94\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+57            android:directBootAware="true"
+57-->[androidx.room:room-runtime:2.6.1] C:\Users\aksha\.gradle\caches\transforms-3\8826f7968b76a9b76961fc617defea94\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+58            android:exported="false" />
+58-->[androidx.room:room-runtime:2.6.1] C:\Users\aksha\.gradle\caches\transforms-3\8826f7968b76a9b76961fc617defea94\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+59
+60        <activity
+60-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\aksha\.gradle\caches\transforms-3\acbbdb6ee75183c9882ceda528ecbaa7\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+61            android:name="androidx.activity.ComponentActivity"
+61-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\aksha\.gradle\caches\transforms-3\acbbdb6ee75183c9882ceda528ecbaa7\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+62            android:exported="true" />
+62-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\aksha\.gradle\caches\transforms-3\acbbdb6ee75183c9882ceda528ecbaa7\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+63        <activity
+63-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\aksha\.gradle\caches\transforms-3\07a08e50253c702067000d4851949f61\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+64            android:name="androidx.compose.ui.tooling.PreviewActivity"
+64-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\aksha\.gradle\caches\transforms-3\07a08e50253c702067000d4851949f61\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+65            android:exported="true" />
+65-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\aksha\.gradle\caches\transforms-3\07a08e50253c702067000d4851949f61\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aksha\.gradle\caches\transforms-3\6e84c1978c17535467945a85d6f32234\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aksha\.gradle\caches\transforms-3\6e84c1978c17535467945a85d6f32234\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.example.surveyapplication.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aksha\.gradle\caches\transforms-3\6e84c1978c17535467945a85d6f32234\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aksha\.gradle\caches\transforms-3\6e84c1978c17535467945a85d6f32234\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aksha\.gradle\caches\transforms-3\6e84c1978c17535467945a85d6f32234\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aksha\.gradle\caches\transforms-3\6e84c1978c17535467945a85d6f32234\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aksha\.gradle\caches\transforms-3\6e84c1978c17535467945a85d6f32234\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\aksha\.gradle\caches\transforms-3\dd34a77ad6469c62649c0beabe6711fe\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\aksha\.gradle\caches\transforms-3\dd34a77ad6469c62649c0beabe6711fe\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\aksha\.gradle\caches\transforms-3\dd34a77ad6469c62649c0beabe6711fe\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+79                android:value="androidx.startup" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+80        </provider>
+81
+82        <receiver
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+83            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+84            android:directBootAware="false"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+85            android:enabled="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+86            android:exported="true"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+87            android:permission="android.permission.DUMP" >
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+89                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+92                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+95                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+98                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aksha\.gradle\caches\transforms-3\1c9c0deae97d34968d22aa9a02b1773d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+99            </intent-filter>
+100        </receiver>
+101    </application>
+102
+103</manifest>
